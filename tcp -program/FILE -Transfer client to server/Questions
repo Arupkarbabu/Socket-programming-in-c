@@ -1,0 +1,9 @@
+1) Write a Client-Server based socket program in C to transfer a text file from client to the server.
+The prototypes to run the client and servers are as below.
+
+$./server <IP Address> <Port No>
+$./client <Server's IP address> <Server's Port No> <File Name>
+
+If you run both the client and the server on the same computer, 
+use a different folder for client and server so that the file to be
+transferred from the client will not be over-written by the server.
