@@ -1,0 +1,9 @@
+Write a client-server based program using socket programming,
+where the client after making the connection to the server will send a STRING to the server, 
+and the server will REVERSE the STRING and send the reversed string to the client as its reply. 
+The client should display the reply received from the server. The server should be implemented as a concurrent server, so that multiple clients can connect to the server at the same time. 
+The prototype for the client and server are as below.
+
+$ <Server> <IP address> <Port No>
+$ <Client> <IP address of server> <Port no of server> <String to be reversed>
+5 points
